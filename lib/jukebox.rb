@@ -48,7 +48,7 @@ end
 
 def run(songs)
   users_input = nil
-  while  users_input.nil? || users_input != "exit" do 
+  while users_input != "exit" do 
     puts "Please enter a command:"
     users_input = gets.strip
     if users_input == "list"
