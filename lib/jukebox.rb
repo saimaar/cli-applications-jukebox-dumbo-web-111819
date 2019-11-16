@@ -56,8 +56,6 @@ def run(songs)
       help()
       elsif users_input == "play"
       play(songs)
-      elsif users_input == "exit"
-      break
     end 
   end 
   
